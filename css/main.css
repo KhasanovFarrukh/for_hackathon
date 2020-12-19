@@ -856,7 +856,7 @@ footer a {
 		        border-radius: 0;
 	}
 	
-	.site__header {
+	.site-header {
 		padding-bottom: 20px;
 	}
 
@@ -1053,7 +1053,7 @@ footer a {
 	}
 	
 	.pagination {
-		margin-left: none;
+		margin-left: 0;
 	}
 
 	.download {
