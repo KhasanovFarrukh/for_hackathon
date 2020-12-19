@@ -572,7 +572,7 @@ img[src*="cloud"] {
 	margin: 50px 0;
 	background-color: red;
 	padding: 25px;
-	font-size: 100px;
+	font-size: 40px;
 	display: none;
 }
 
@@ -855,6 +855,10 @@ footer a {
 		   -moz-border-radius: 0;
 		        border-radius: 0;
 	}
+	
+	.site__header {
+		padding-bottom: 20px;
+	}
 
 	#sitenav li {
 		width: 100%;
@@ -1042,6 +1046,14 @@ footer a {
 	.clients__right {
 		width: 80%;
 		margin: 0 auto;
+	}
+	
+	.clients__comment {
+		flex-direction: column;
+	}
+	
+	.pagination {
+		margin-left: none;
 	}
 
 	.download {
